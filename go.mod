@@ -1,4 +1,4 @@
-module clevandowski/json2yaml
+module github.com/clevandowski/json2yaml
 
 go 1.20
 
