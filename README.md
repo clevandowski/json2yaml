@@ -1,4 +1,4 @@
-# yaml2json
+# json2yaml
 
 ## Build
 
