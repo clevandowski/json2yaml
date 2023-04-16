@@ -1,5 +1,7 @@
 # json2yaml
 
+Transform json input stream into yaml.
+
 ## Build
 
 Requires go >= v1.20
