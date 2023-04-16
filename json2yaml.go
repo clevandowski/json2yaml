@@ -1,7 +1,7 @@
 package main
 
 import (
-	"encoding/json"
+  "encoding/json"
   "fmt"
   "gopkg.in/yaml.v3"
   "io"
@@ -31,10 +31,10 @@ func json2yaml(data string) (string, error) {
 func main() {
   stdin, err := io.ReadAll(os.Stdin)
 
-	if err != nil {
-		panic(err)
-	}
-	data := string(stdin)
+  if err != nil {
+    panic(err)
+  }
+  data := string(stdin)
 
   output, err := json2yaml(data)
   if err != nil {
